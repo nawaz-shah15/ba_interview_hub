@@ -1,0 +1,2347 @@
+{
+  "industries": [
+    {
+      "id": "bfsi",
+      "title": "Banking & BFSI",
+      "tagline": "Banking, insurance, lending, payments, capital markets, KYC & AML",
+      "icon": "bank"
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare & Life Sciences",
+      "tagline": "Healthcare, pharma, LIMS, GxP, clinical & claims systems",
+      "icon": "heart"
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "tagline": "IT services, e-commerce, product companies & every other industry",
+      "icon": "grid"
+    }
+  ],
+  "companies": [
+    {
+      "id": "acc",
+      "name": "ACC",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduce yourself.",
+            "Have you worked on any product or application?",
+            "What is BRD, FRD, FSD.",
+            "What is API?",
+            "Walkthrough with Jira.",
+            "When the client is escalating, how will you manage it.",
+            "Tell me about your project.",
+            "If there is multiple requirement how will you manage it.",
+            "Define various reports in Jira.",
+            "What all KPI's you use in your project."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aden-ai",
+      "name": "Aden AI",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Can you walk us through your professional journey, focusing on your transition from QA to Business Analysis and your core domain expertise?",
+            "What is your overall relevant experience in Business Analysis, specifically within the Insurance domain?",
+            "How comfortable are you working with technical artifacts like API payloads, JSON structures, and SQL queries?",
+            "How do you perform API payload testing or data validation?",
+            "How do you approach Source-to-Target Mapping (STM) and data mapping between legacy systems and modern APIs or microservices?",
+            "In your previous roles, how have you managed cross-time-zone stakeholders across US, UK, and India teams?",
+            "How do you handle a situation where a business stakeholder asks for an 'impossible requirement' or a feature that conflicts with existing system architecture?",
+            "How do you approach requirement elicitation when business users are distributed across different geographies and have conflicting priorities?",
+            "How have you integrated AI tools into your daily Business Analyst workflow?",
+            "Can you give a specific example of how AI helped you write user stories, generate Gherkin acceptance criteria, or summarize elicitation workshops?",
+            "At AidenAI, we work heavily as an enterprise implementation partner for no-code platforms like Unqork, along with custom agentic AI solutions. How adaptable are you to learning low-code/no-code platforms on the job?",
+            "Where do you see yourself contributing within an agile squad that builds enterprise data and workflow solutions for global clients?"
+          ]
+        },
+        {
+          "name": "Round 2",
+          "questions": [
+            "How did that transition happen from a QA to a BA?",
+            "Your BA journey has been on healthcare and insurance domain primarily. Is that right?",
+            "You worked on an e-commerce as a QA transitioning yourself into domain expertise, so how did you manage that transition?",
+            "From a technology stack standpoint, what is the technology stack that you were involved with in your recent programs?",
+            "I’ve seen Bizagi somewhere in your profile, have you worked on Bizagi as well? Any specific reason for using that only for process modeling.",
+            "Take me through the end-to-end life cycle for either health, general, or US P&C insurance.",
+            "You worked on or have experience on underwriting ISO forms experience. Can you give me one underwriting requirement that you have worked on and how did you translate that into system requirements?",
+            "An insurer wants about 60 to 70 percent of simple claims to be processed without any manual intervention. As a BA, how would you approach that requirement?",
+            "Do you know what is STP (Straight-Through Processing)?",
+            "Let's say a business stakeholder gives you a problem statement saying that his claim settlement is taking too long. How would you interpret this statement as a BA, and what would be your course of action?",
+            "Let's say you have two different stakeholders: one is expecting more automation, the other is expecting additional manual checks. How would you resolve this?",
+            "Have you heard about low-code no-code? Any products that you are aware of in the market?",
+            "Let's say I give you a manual claims process and tell you to implement this on a platform. How would you break down your process for the implementation team?",
+            "Let's say you have a form which has 80+ fields, but based on a particular claim type only 50% of the fields should appear. How would you define this requirement?",
+            "Let's say you have to document 30 to 50 complex claim adjudication rules so that business, developers, and QA interpret them similarly. How would you document such a requirement?",
+            "When you are provided the wireframe/prototype of a journey from the UX team, what all validations do you do as a BA before approving it?",
+            "A customer submitting a claim gets an error like 'external policy validation service unavailable.' What is the right approach to handle this from a BA perspective when giving requirements to the developer?",
+            "Have you leveraged any AI in any of the programs that you were part of, or personally from your side?"
+          ]
+        },
+        {
+          "name": "Round 3 – Best Interview Experience",
+          "questions": [
+            "Have you worked on MDM projects before? Have you heard of MDM?",
+            "How do you approach this solution as a BA? Like from your business perspective, right? This is the Phase 2 requirement. So, how do you approach from your perspective? What are the steps which you will take it up and give the requirement to the technical team?",
+            "And you break down stories, set up a refinement session with the technical team? Do you... will it be covered?",
+            "How do you go and sell it to the source system, 'Okay, this is the API you need to configure it.' How do you approach the respective source system and manage those dependencies from your point of view?",
+            "And how good is your SQL? Have you worked with SQL before?",
+            "Do you mind sharing the screen? I’ll walk you through what exactly... Shared Progress DB and for a sql query?",
+            "So, question is: 'Which is the most popular airline?' This is the Postgres. So, you can run some and go through the table... What's your approach? I mean, you can explain it, I mean what will be your approach. (Live SQL Exercise)?",
+            "And what about your API knowledge? Have you worked with API?",
+            "What are the methods available in HTTPS?",
+            "How do you translate these requirements, let’s say a source system is going to say that you need to use a Get statement, you will extract this as a JSON payload, then this has to be loaded into Snowflake. How do you translate this and communicate to the technical team?",
+            "And do you create Jiras or anything so that it’s... and documentation as well?",
+            "Do you have any questions to me, Sushma?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "allegis-solutions",
+      "name": "Allegis Solutions",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Did you ever work end to end as AP?",
+            "Teminolgy: depriciation COA, Gst part.",
+            "Repayment of vender.",
+            "Risk analysis.",
+            "What measurse are you taken?",
+            "Change mangement and your learing.",
+            "Tool that you work on?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "altimetrik",
+      "name": "Altimetrik",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "About project.",
+            "What are the roles and responsibilities u handle?",
+            "Difference between PO and BA and scrum master.",
+            "How u gather requirement?",
+            "How u know who is your stakeholder and how u able to communicate?",
+            "Able to mange PO and BA role?"
+          ]
+        },
+        {
+          "name": "Round 2",
+          "questions": [
+            "Day to day activities of BA.",
+            "How practically will you gather requirements if the stakeholder is not aware of complete information?",
+            "What are phases in the traceability matrix of document?",
+            "Will you be able to handle the Scrum role along with the BA role?",
+            "How u verify the gathered requirement is good?",
+            "Who will give a sprint demo to the client's?",
+            "Flexible to work on multiple projects."
+          ]
+        },
+        {
+          "name": "L2 (Set 2)",
+          "questions": [
+            "Self introduction.",
+            "How do you make sure requirements gathering is good.",
+            "How do you manage difficult stakeholders?",
+            "Explain scrum ceremony.",
+            "Scope screep.",
+            "RTM and TYpes.",
+            "What is fish born analysis?",
+            "Parrot theory.",
+            "Sql delete and truncate.",
+            "Explain ETL and ELT.",
+            "What is OLTP and OLAP?",
+            "How the user story should be(INVEST)?",
+            "Explain data mapping.",
+            "How do you perform priority assessment?"
+          ]
+        },
+        {
+          "name": "Round 1 (Set 2)",
+          "questions": [
+            "Self Introduction? - education and experience details.",
+            "Current Project details - Roles and responsibilities.",
+            "Domain Understanding - Full explanation about from starting to ending modules.",
+            "Elicitation Techniques you have worked? - Elicitation workshop and prototyping elicitation with explanations in real-time scenarios.",
+            "Tools you used everyday to accomplish the task?",
+            "Consider a Shipping and Logistics portal in web application what are feature you must include in Homepage - Dashboard? Write the user stories for that.",
+            "Your project works under which model Agile or waterfall? Why? What’s the difference between them?",
+            "How you prioritise the requirements? Which methodology used? MoSCWW explanation.",
+            "What is the difference between BA and Product owner? Product owner roles and responsibilities.",
+            "Data Related questions - SQL - as a BA why SQL is needed?",
+            "AI related questions - If any feature recommend to client team with AI based? AI tools knowledge? Which one you used regularly? Why?",
+            "Are you aware of that HIPPA? and GDPR?"
+          ]
+        },
+        {
+          "name": "Round 2 – LIMS",
+          "questions": [
+            "Explain your Project LIMS?",
+            "What is data quality? What you will do if I can give set of data to refine it.",
+            "What is meant by Definition of Done(DoD)?",
+            "Explain Acceptance Criteria?",
+            "What is meant by user stories? Can you give one example from your project?",
+            "What is meant by EPIC?",
+            "What is the difference between User Interface (UI) and User Experience (UX)?",
+            "Agile ceremonies, explain sprint retrospective?"
+          ]
+        },
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "What is the difference between user story and use case?",
+            "What is refinement backlog?",
+            "If there is no data available then how will u proceed with the requirement. ( When client answered this she mentioned we should follow mvt approach )?",
+            "If we get new requirement 2 weeks before the project starts how will you deal with this situation?",
+            "What is invest principal?",
+            "Which all domains have you worked?",
+            "While user stories how do you consider Artifacts. Before Artifact there was one term unable to recollect.",
+            "Any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aqm-technologies",
+      "name": "AQM Technologies",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "What applications have you worked on?",
+            "Explain your experience in Health Claims Management.",
+            "Explain your Provider Management Portal project.",
+            "Explain the V-Care application.",
+            "What change requests did you handle?",
+            "What insurance products have you worked on?",
+            "What was your role in Majesco?",
+            "Who was your client in Majesco?",
+            "Have you worked on TCS BaNCS?",
+            "Have you worked on HealthBuzz?",
+            "Have you worked on any core insurance platforms?",
+            "Have you implemented any application from scratch?",
+            "How many years of BA experience do you have?",
+            "What are the major skills required for a Business Analyst?",
+            "What are your day-to-day responsibilities as a BA?",
+            "What BA documents do you prepare?",
+            "How do you prioritize requirements?",
+            "What Agile ceremonies do you participate in?",
+            "How do you gather requirements?",
+            "What requirement elicitation techniques do you use?",
+            "Which elicitation technique do you prefer?",
+            "How do you conduct requirement workshops?",
+            "How often do you use AI?",
+            "Which AI tools do you use?",
+            "How do you use ChatGPT?",
+            "How do you use Microsoft Copilot?",
+            "How has AI improved your daily work?",
+            "Which BA tools have you used?",
+            "Difference between Gap Analysis and Impact Analysis.",
+            "Are you familiar with SQL?",
+            "What is your preferred work location?",
+            "Tell me about your family.",
+            "Why did you leave Tata AIG?",
+            "When can you join?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ascendion",
+      "name": "Ascendion",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "What is your day to day activities?",
+            "What is your experience/knowledge with enterprise applications? Have you worked on any enterprise application?",
+            "What is your biggest challenge in this role as a BA?",
+            "How do you handle technical discussions as a BA?",
+            "How do you handle a discussion between developer and tester when you are sitting between them in a technical aspects?",
+            "How you handle stakeholders discussion in technical wise?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bounteous-x-accolite",
+      "name": "Bounteous x Accolite",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "What exactly did you do in gap analysis?",
+            "What prioritization techniques do you use in your control?",
+            "Can you explain MOSCOW prioritization?",
+            "Can you walk through an example project journey from start to finish?",
+            "What is the difference between functional and non-functional requirements?",
+            "What is the difference between acceptance criteria and definition of done?",
+            "What is definition of ready?",
+            "Which agile metrics are you using to evaluate project performance?",
+            "How do you perform story pointing and track how many story points developers complete in a sprint?",
+            "What do you do during sprint refinement and what artifacts do you produce?",
+            "How do you apply the core agile values in retrospectives and what columns do developers use to add feedback?",
+            "Can you write a query to list employees whose annual salary exceeds five lakhs given monthly salary?",
+            "Difference between Where and Having in sql?",
+            "What is union and union all in sql?",
+            "Given two tables and ask to write different Joins statement.",
+            "Given scenario in excel and aksed for vlookup and xlookup.",
+            "Asked various functions in excel."
+          ]
+        },
+        {
+          "name": "Round 1 – Bounteous India",
+          "questions": [
+            "Introduction.",
+            "Share screen and show the workflow what you prepared with paint/pen paper.",
+            "Explain about sampling based on resume.",
+            "Explain all applications worked. In admin setting the checkbox was it based on roles or location geographic. The logic in it.",
+            "All tools which you worked?",
+            "How good are you in SQL and how difficult query can you write.",
+            "Why do you write business requirement, it's the client. - At last convinced when we write it goes through proper review and approval process.",
+            "Normal banking scenarios day to day explain.",
+            "Which all phases I worked?",
+            "During UAT if customer rejects it what will I do.",
+            "What is sprint review meeting.",
+            "What if full form of MVP and BPMN.",
+            "Have you managed team.",
+            "What you mean by sprint backlog and product backlog.",
+            "Related to question 11 if during demo if part of same requirement but missed then y do u create a new MVP why not in same MVP.",
+            "Asked on more requirement which I worked."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bupa",
+      "name": "Bupa",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduce yourself in detail.",
+            "Talk in detail about the companies in which you’ve worked and roles-responsibilities in different companies.",
+            "Explain your last project in detail.",
+            "When you joined the project, In which phase the project was?",
+            "Share the complex requirement you’ve handled and how did you handled it?",
+            "What is HL7 and did you use it in your project?",
+            "Have you used EMR, EHR?",
+            "In the every phases of your role how much time you take to complete the task and the stakeholders your interact with?",
+            "Why do you left your last job?",
+            "How many members are there in your family? And Where do you reside?",
+            "What is your strength?",
+            "What is your weakness?",
+            "Do you’ve any question for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capco",
+      "name": "Capco",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "L1 – Capital Market Domain",
+          "questions": [
+            "Why is it named Capital Market?",
+            "Equity and its charateristics.",
+            "OTC market and products.",
+            "Difference between OTC market and Secondary Market.",
+            "What is Swap contract and give example of a swap contract?",
+            "Define Trade life cycle.",
+            "What is the difference between Custody and Depository?",
+            "What is derivative market and its product?",
+            "What is the difference between Forward Contract and Future Contract?",
+            "What is option and types?",
+            "When we enter into Call and put Option?",
+            "Difference between Europian Option and American Option.",
+            "What is Corporate Action and type?",
+            "What is mandatory and voluntary Corporate Action?",
+            "What are different types of margin?",
+            "What is MTM Margin?",
+            "What is Short position and long position?",
+            "Define Securities lending and borrowing with an example."
+          ]
+        },
+        {
+          "name": "L1 – Business Analyst Questions",
+          "questions": [
+            "Tell me your daily job responsibilities as a BA.",
+            "How do you prioritize your backlogs?",
+            "What prioritization techniques do you use in your project?",
+            "Define one requirement you worked on and faced a challenge that was difficult to resolve.",
+            "What is the T-shirt Prioritization technique?",
+            "How do you use wireframes?",
+            "What is the use of Confluence?",
+            "Give me one example of a user story that you worked on.",
+            "Suppose you got a requirement change or a new requirement in the middle of the sprint; how would you handle it as a Product Owner?",
+            "What is the exact terminology a Product Owner uses for a change request or a new request in the middle of the sprint?",
+            "What are the different calls or meetings you join in your current project?",
+            "What is the difference between \"definition of done\" and \"definition of ready\"?",
+            "What is a POC, and as a BA, how do you handle a POC requested by a Product Owner or Product Manager?",
+            "Are you validating the test cases written by QEs, and how are you validating them?",
+            "Are you doing PVT with stakeholders after production deployment?",
+            "How do you conduct a brainstorming session? Tell me with an example that you worked on.",
+            "Have you ever worked with a team for automation?",
+            "Tell me the difference between SFTP and STP.",
+            "How do you use SQL in your project?",
+            "What operator do we use to get unique records in SQL?",
+            "What is a join, and what are its types?",
+            "How can we get the top 5 updated records from a database through a query?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cgi",
+      "name": "CGI",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Can you tell about your previous project?",
+            "Have you worked with Jira and Azure Devops?",
+            "What are the agile ceremonies?",
+            "How do you break an EPIC into smaller features or User Requirements?",
+            "Do you know SQL?",
+            "What are the tools you used for wireframing or prototyping or mockups?",
+            "Do you know about API? If yes, where have you used it in your project?",
+            "Difference between SOAP and REST APIs.",
+            "What are the differences between HTML and CSS?",
+            "How have you used debugging in your project?",
+            "Do you have any questions for me?"
+          ]
+        },
+        {
+          "name": "L1",
+          "questions": [
+            "Introduce yourself - last project you have worked on- roles and responsibilities- core of your project.",
+            "As a BA what are the artifect you have worked on?",
+            "What are all sections will be added in BRD?",
+            "FSD what are all sections will be there?",
+            "Difference between BRD and FSD?",
+            "What is RTM? Have you created one RTM document?",
+            "What is API? Methods of API?",
+            "Explain Agile ceremonies.",
+            "Consider you are having 2 requirements high priority, how you will manage?",
+            "What are the roles of ba during uat?"
+          ]
+        },
+        {
+          "name": "Additional Round",
+          "questions": [
+            "Introduction.",
+            "Explain about your Project - Bp. What was your roles and responsibilities.Explained.",
+            "Explain about your agile methodology? Have you used it?",
+            "Explain about the raci matrix?",
+            "What are the Day to Day activities of a BA and what is your role as BA in raci.",
+            "Api? How do you use it as a ba?",
+            "What are the charts you have used and tools used for it?",
+            "Have you worked on jira?",
+            "Explain about API Integrations used in your Project?",
+            "How do you support UAT? And your roles and responsibilities as a ba?",
+            "Was there a Scrum master in your team?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clear-trail",
+      "name": "Clear Trail",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Tell me about yourself starting from your education.",
+            "What is user story and acceptance criteria?",
+            "What happens when u get conflicting req from the groups?",
+            "What happens when the stakeholder is not giving u any answer?",
+            "Tell me the complete cycle from requirement to end.",
+            "How do u know user story is properly implemented?",
+            "How do u know or track the progress after the feature go live?",
+            "Tell me a proper decision or step u took during the whole sprint.",
+            "What u do when u got to know what stakeholder told was different and what they expect is different?",
+            "Which app do u like and why?",
+            "Tell me a workflow how would u act as a detective so that u can track down the thief.",
+            "Suppose u want this feature whats your take how will u implement.",
+            "Write user story and acceptance criteria for this.",
+            "What is mvp and how its divided in sprints?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cognizant-life-sciences-lims",
+      "name": "Cognizant (Life Sciences – LIMS)",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "Explain your LIMS architecture.",
+            "Explain customer/sample registration technically from UI → API → backend → database.",
+            "How do you work with developers to clarify requirements?",
+            "How do you validate data using SQL?",
+            "Explain an API in LIMS project.",
+            "Explain an integration between LIMS and another healthcare system.",
+            "What happens when an API fails?",
+            "How do you perform impact analysis for a change request?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cognizant-payments-kyc-aml",
+      "name": "Cognizant (Payments, KYC & AML)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1 – Payments & KYC AML",
+          "questions": [
+            "Tell me about yourself and what are the projects you did and where u want to be in future.",
+            "How do you define a critical path and how to calculate it.",
+            "How do you plan a sprint.",
+            "Who decides the acceptance criteria and give me some examples of AC.",
+            "What is the importance of process flow diagrams.",
+            "What happens in sprint planning and how many days is the sprint in your organisation?",
+            "Can the sprint be of 4-5 weeks.",
+            "Give some examples of AI implementation you did.",
+            "What are the stages of money laundering?",
+            "What is the difference between KYC and AML?",
+            "Do you have any intention of doing ACAMS certification.",
+            "Do you prefer payment domain or KYC AML?",
+            "What is your package and expectations.",
+            "Any questions?"
+          ]
+        },
+        {
+          "name": "Round 1 – Technical (Cleared)",
+          "questions": [
+            "Tell me about yourself.",
+            "Walk me through your current project.",
+            "What is the business problem your project solves?",
+            "What exactly is your role as a BA?",
+            "What are your day-to-day responsibilities?",
+            "Who are your key stakeholders?",
+            "Explain the end-to-end payment lifecycle.",
+            "What are the different participants in a card payment?",
+            "What is the difference between: Authorization and capture?",
+            "How do you interact with business stakeholders?",
+            "Explain one complex requirement you handled in payment domain.",
+            "Tell me about a challenging requirement you worked on.",
+            "What was the most difficult stakeholder you worked with?",
+            "Tell me about a requirement where stakeholders had conflicting opinions."
+          ]
+        },
+        {
+          "name": "Round 2 – Technical (Rejected)",
+          "questions": [
+            "Explain your current project architecture and payment flow.",
+            "Explain end-to-end payment processing.",
+            "Customer is debited but order failed — how do you investigate?",
+            "How do you handle duplicate payments?",
+            "What happens when a payment gateway times out?",
+            "Explain authorization, capture, settlement, reversal and refund.",
+            "Explain payment reconciliation and common mismatches.",
+            "How would you investigate a sudden drop in payment success rate?",
+            "How do you convert a business payment requirement into user stories and acceptance criteria?",
+            "Tell me about a complex production/payment issue you handled and your role in resolving it.",
+            "Scenario based question related with payment Gateway and payment failure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computershare",
+      "name": "Computershare",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Intro.",
+            "How you will manage the requirement. Tell me about your projects.",
+            "How do you prioritize the work?",
+            "How do you do Gap Analysis?",
+            "What method you re using?",
+            "Walk through by Jira.",
+            "In the production if client will coming with new requirements what you will do.",
+            "During the implementation if client tell to remove the baner from the screen, but during the testing it will still be there what you will do?",
+            "They gave 2-4 scenario & asked me to create user stories & acceptance criteria.",
+            "Have you ever worked for finance domain?",
+            "Worked for Any US client?",
+            "How do you check tech fiseability?",
+            "What you do in sprint planning?",
+            "What type of requirements you got in your projects tell me 5-6 requirements?",
+            "How do you do write test cases.",
+            "How would you know the requirement is complete?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deloitte-aml-banking-insurance",
+      "name": "Deloitte (AML – Banking & Insurance)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Walkthrough with projects and tools.",
+            "Aglies ceremony.",
+            "1 excersise question is that out these which are the red flag 🚩 and Why?",
+            "Name, country, investment on insurance amount, I'd proofs is given.",
+            "Then we have to select above and why!"
+          ]
+        },
+        {
+          "name": "Round 3 – Manager Round",
+          "questions": [
+            "How did you start career as a BA?",
+            "What are the roles of a BA?",
+            "What is the difference between a BA and project Manager?",
+            "Are you flexible with any time to work despite office hours?",
+            "Can you work during your leaves?",
+            "What do you know about our company?",
+            "How long you want to continue with us?",
+            "Any questions for you?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deloitte-process-modelling",
+      "name": "Deloitte (Process Modelling)",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1 – Technical",
+          "questions": [
+            "Introduces yourself.",
+            "Walk me through your roles and responsibilities in current organisation.",
+            "What do you know about Process Model and Mapping?",
+            "What tools did you used for process mapping?",
+            "Walk me through the process modelling task using IBM Blueworks Live tool in your requirements?",
+            "Give an example of requirements where you used Business Process Mapping while creating requirements?",
+            "Are you a Tea or Coffee person?",
+            "Case: In Bangalore City can you give a number how many tea cups were sold from morning till time? Explain using example.",
+            "How you will represent this data in process modelling to know the sell of tea in the city?",
+            "Do you have any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digit-insurance",
+      "name": "Digit Insurance",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1 – Pune",
+          "questions": [
+            "Tell me about your latest project and your responsibilities in it.",
+            "What is the difference between a health benefit and an indemnity product?",
+            "What are the different criteria of claim adjudication?",
+            "What do you understand by the principle of subrogation?",
+            "What premium factors will an underwriter consider for insuring a chemical plant under fire insurance?",
+            "What perils are included in STFI policy or non-motor policy? Name one peril not covered.",
+            "What is the difference between risk and peril?",
+            "What is the difference between risk, peril, and hazard?",
+            "So suppose you have one policy workflow where you have to integrate an API to fetch the policies present against a customer based on his mobile number. So this is a change request that you have to implement on a website and user will enter the mobile number and you have to fetch all the policies. So first is what will be the high level steps you would follow for this requirement and second who all will be the stakeholders for this requirement considering this is for an insurance organization.",
+            "As a BA, what steps would you follow for a requirement from scratch to go-live?",
+            "What information do you gather in an FRD document?",
+            "What are the 12 roles in Agile Manifesto? 12 principles of Agile Manifesto?",
+            "Suppose there is a business architect who was designing a, who designed a document and shared it with tech architect but there was a flaw in the document and now the designed solution is not matching. So suppose this mobile number requirement that we discussed, it did not check the 10 digit mobile number instead it allowed 12 digit. Now the business is aware of it and now how could you resolve this conflict, resolve it not leading to a conflict.",
+            "How much will you rate yourself in SQL? Let's say from 1 to 10.",
+            "Any Queries?"
+          ]
+        },
+        {
+          "name": "Round 2",
+          "questions": [
+            "What is your day-to day responsibilities?",
+            "How do u rate yourself in API?",
+            "What are the things you will consider while integrating APIs with a third-party system?",
+            "From an architecture point of view, how will you ensure that customer data is secured?",
+            "How will you ensure that PII (Personally Identifiable Information) is not misused?",
+            "What strategies will you use to prevent customer data from getting hacked or exposed?",
+            "How would you rate yourself in SQL out of 5?",
+            "What type of SQL queries have you worked on?",
+            "Which SQL joins have you used?",
+            "What AI tools have you used in your day-to-day work?",
+            "Do you have any exposure to Agentic AI?",
+            "Have you used GPT-4.5, Claude, Sonnet, or other AI agents?",
+            "Have you used AI agents to improve productivity?",
+            "What AI use cases have you worked on in your project?",
+            "What do you know about Digit Insurance?",
+            "Do you have any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-sprint-ai-solutions",
+      "name": "Digital Sprint AI Solutions",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Various scenario based questions for all steps from Requirement prioritization to UAT sign off.",
+            "How do you check for Technical Feasibility?",
+            "What are the Contents in a BRD?",
+            "Do you write user stories before drafting the documents or later?",
+            "If SME and other stakeholders have different requirements, how will you manage them?",
+            "How do you explain the requirements to the developer?",
+            "Tell me about UAT.",
+            "Car showroom scenario given and asked about all API's which can be integrated?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eastencher-software-technologies",
+      "name": "Eastencher Software Technologies",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1 (45 mins)",
+          "questions": [
+            "Walkthrough your skillset.",
+            "What is the difference between need and requirement?",
+            "How will you make sure that requirement is clear?",
+            "As a BA, if you should explain requirements to the developer, what will you do?",
+            "How will you prioritize requirements?",
+            "What are the sections written in SRS?",
+            "What is the difference between Use Case & User stories?",
+            "What is the difference between Mockups and prototypes?",
+            "What is high fedelity prototype and low fedelity prototype?",
+            "What are the API’s that you have used in your applications?",
+            "What is data Modelling?",
+            "What is entity type?",
+            "Can you explain HL7 & FHIR?",
+            "How will you make sure that Application is working properly after requirement implementation?",
+            "How will the AI tools help you in your daily tasks?",
+            "What are all the techniques you use on the gathered requirements?",
+            "What is the current team size?",
+            "If client is clear with the need and require no changes throughout the process then which project methodology would you implement?",
+            "Have you worked on patient & billing Modules?",
+            "Can you explain Acceptance criteria and format that you use?"
+          ]
+        },
+        {
+          "name": "Round 2 (1 hour)",
+          "questions": [
+            "Documentation Task for 3 healthcare Scenarios consisting of Objective & Scope, Functional requirements, Stakeholders and their roles, User stories, acceptance criteria, business rules, Risks & defects, Expectation scenarios, Process flow diagram using draw.io."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eclerx",
+      "name": "eClerx",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduce yourself.",
+            "Explain the current CLM workflow.",
+            "What's your day to day role as a BA?",
+            "Scenario based questions for KYC AML process.",
+            "How our current process is aligned as per regulatory requirements.",
+            "What AI process have you integrated to the current CLM tool?",
+            "How do you see the AI from both positive and negetive point of view?",
+            "What are the challenges you face in your current role?",
+            "How do you handle a change request?",
+            "How do you plan sprint?",
+            "All the questions asked based on scenario."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empower-tech-canada-life-client",
+      "name": "Empower Tech (Canada Life Client)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Brief Introduction about experience and Project details?",
+            "How you manage conflicts between two stakeholders explain based on real time scenario in project?",
+            "How do you translate business requirements to technical requirements? Based on project explanation?",
+            "Life Insurance Life Cycle? From quotation to claim process.",
+            "Explain user stories and acceptance criteria? Based on project explanation?",
+            "Requirement traceability matrix? Why it’s important?",
+            "If the business requirement is not technically feasible how would you manage this situation?",
+            "Scenario based question - Current Life insurance buying journey we have to add a rider or top-up plan to this product what are necessary steps you would take? From elicitation to feature deployment?",
+            "Have you done any data mapping process from one system to another system? Real time project explanation?",
+            "Have you mange the performances issues or production error root cause analysis for the system failure? Live production support and problem solving?",
+            "How do you prioritise the requirements?",
+            "Have you faced any scope creep in your current project? If yes in what Stage?",
+            "After you gathered requirements from Business stakeholders how would you confirmed that gathered requirements is enough to proceed further?",
+            "Once you gathered requirements what are essential steps to do for technical team (Developer and QA)?",
+            "Have you done UAT test cases? What are important things you consider while writing UAT test cases?",
+            "In UAT are you validating all test cases must pass or-else exceptional cases also you will consider? What could be exceptional cases? Realtime project explanation?",
+            "Have you managed any junior resources? What are things you should guide team members for new elicitation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emsyne",
+      "name": "Emsyne",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Give brief introduction about yourself.",
+            "Who is your client and stakeholders?",
+            "Tell me about los and lms systems.",
+            "Explain the loan life cycle process.",
+            "Explain one or two requirements which you worked on.",
+            "Why are you looking for a change?",
+            "Where do you use AI as a BA in your day to day tasks?",
+            "Did using AI really help you?",
+            "Are you okay to relocate?",
+            "Any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epam",
+      "name": "EPAM",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about your roles and responsibilities.",
+            "Credit card of a bank does not have a customer base of below 30years and there is a huge market for below 30years age group. As a BA how will you analyse the situation and provide recommendations.",
+            "What are your roles and responsibilities in different parts of SDLC?",
+            "How will you disect the large requirement into smaller sections and groom them to the development team.",
+            "How will you estimate the user stories.",
+            "Suppose there is a requirement to create a log in page for an application. Mention the user stories and acceptance criteria using INVEST.",
+            "How can we track the requirements forward and backwards?",
+            "Let's say at the end of the sprint you came to know the development needs more time. How will you manage this situation and avoid it.",
+            "Explain the scrum ceremonies.",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurofins",
+      "name": "Eurofins",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1 – Techno-Functional BA",
+          "questions": [
+            "Introduction.",
+            "Explain LIMS end to end.",
+            "Which LIMS provider/software are you using?",
+            "How do you capture tecnician workings during sample analysis (analysis data)?",
+            "Are you familiar with Microbiology concepts and how to configure those modules in LIMS?",
+            "Will you be able to cope with new domain & modules?",
+            "Explain tough or complex requirement from your project?",
+            "How do you handle a difficult stakeholder?",
+            "Explain end to end process of requirement from gathering to UAT?",
+            "What is your role in agile?",
+            "How do you handle a situation where after using recently implemented requirement for 1 month, stakeholders want to make new changes?",
+            "How do you handle change request? If CAB rejects RFC then how do you handle the stakeholders?",
+            "Explain bug / incident management?",
+            "What is your approach on new job, new project, new requirements? What you will do one first month of a new Job?",
+            "Why are you changing your current job?",
+            "Whay do you want to join Eurofins?",
+            "We have a small team on this project and alot of work. Will you be able to handle pressure and perform at high level?"
+          ]
+        },
+        {
+          "name": "Round 1 – Business / Functional Analyst",
+          "questions": [
+            "Introduces yourself.",
+            "Walk me through your roles and responsibilities in current organisation.",
+            "What you know about Business Documents?",
+            "Explain BRD & FRD?",
+            "What does a BA do before BRD?",
+            "Suppose I give you a one line Business Request what is the next step for you as a BA?",
+            "What will you do after creating FRD?",
+            "When will be your work in Agile Ceremonies?",
+            "What task a BA does in UAT? And what happens after UAT?",
+            "What is process mapping and what are the contents and elements of BPMN?",
+            "What is the use of BPMN in requirements and where it is included?",
+            "What is LIMS and how does it function?",
+            "Do you have any further questions?"
+          ]
+        },
+        {
+          "name": "L1",
+          "questions": [
+            "Tell me about yourself.",
+            "Walk me through your roles and responsibilities in your current organisation.",
+            "What do you know about Business Documents?",
+            "Explain BRD & FRD — what's the difference between them?",
+            "In a single line, what's the difference between BRD and FRD?",
+            "Are you aware of the Product Owner role, and what's the difference between a BA and a PO?",
+            "If using MoSCoW and you arrive at multiple Must-Haves from stakeholders, how do you prioritize among them?",
+            "If you have, say, 10 Must-Haves and 4 Should-Haves, and you've ranked several as top priority — how do you decide which one to actually start with? What other criteria do you consider?",
+            "Would you also use business value versus development effort/estimate as a prioritization factor?",
+            "Out of the total project timeline, what percentage would you spend on the analysis phase versus development, QA, and UAT?",
+            "Scenario: a new mental health wellness app needs to be built for an existing healthcare company — what would be your initial approach as a BA/PO?",
+            "If you had to draw a user journey/flow for this app, how would you do it (using a tool like Draw.io, Paint, or Balsamiq)?",
+            "If there's also a feature to browse/search wellness programs and videos, how would you classify that as a requirement (Use Case)?",
+            "Write a user story for the browse/search wellness programs feature.",
+            "Production scenario: a dropdown field isn't showing values for a user in a live application — what analysis would you do before redirecting it to the technical team?",
+            "(Follow-up/correction) If it's clearly a genuine defect, not a requirement gap — what are the actual steps you'd take, without going back to RTM?",
+            "What are some challenges you've faced working with stakeholders?",
+            "What is your participation or contribution in Agile ceremonies?"
+          ]
+        },
+        {
+          "name": "L1 (Set 2)",
+          "questions": [
+            "When will u consider a requirement is complete?",
+            "What all questions will u ask during elicitation?",
+            "Explain all agile ceremonies happened in your company.",
+            "What user story format u use in your company?",
+            "Is the USer story and acceptance criteria have same format?",
+            "How will u define defination of done.",
+            "How will u handle if a stakeholder keep on asking changes in requirement?",
+            "If dev have done wrong development what will u do, if dev says he did not understand?",
+            "Even penetration testing happens?",
+            "What's the difference between functional and non functional requirements?",
+            "Do u participate in testing like UAT? If UAT fails wat will u do?",
+            "If client says I don't know about the reason on implementating this requirement what will u do? Do u have SME to discuss?",
+            "If dev says this feature cannot be technically implemented or developed what will u do?",
+            "Given a example of quotation as a requirement which all user can view after the implementation in prod do u review or audit of it's correct or not.",
+            "What is difference between bug and CR?",
+            "Any questions for me?"
+          ]
+        },
+        {
+          "name": "L2",
+          "questions": [
+            "Difference between BRD and functional document.",
+            "Explain about non functional requirement.",
+            "Were u involved in UAT?",
+            "If u get the conflicting stakeholders what will u do for making everyone into same page?",
+            "Have u worked in azure?",
+            "How will u create epic, user req, us and all in it.",
+            "How will u make sure user stories are very clear and complete?"
+          ]
+        },
+        {
+          "name": "L3",
+          "questions": [
+            "If u get requirement of 1 liner how will u go with it and all ceremonies which all you were part of.",
+            "Explain any one CR which u handled.",
+            "Is CR included as part of the sprint cycle?",
+            "For a requirement which got live but after 3 months one stakeholder comes and say no this is not wat we asked for we need something else what will u do. And for this new requirement how will u trace with old one?",
+            "Wats your involvement in UAt.",
+            "Is UAT testing cases same as testing test cases?",
+            "Do you review the SIT test cases?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ey-l1",
+      "name": "EY (L1)",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "How do you priorities requirement which technique you follow?",
+            "What is dod and dor?",
+            "How do you rate your self in sql (0-5)?",
+            "What is TRM and back ward TRM?",
+            "What is sprint retrospective?",
+            "Explain the gen Ai project you work on.",
+            "What is HL7 and FHIR?",
+            "Explain any recent tuff elicitation you have worked on.",
+            "What is burndown chart?",
+            "How do you manage difficult stakeholders?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ey-mumbai-investment-banking",
+      "name": "EY Mumbai (Investment Banking)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself and your daily activities.",
+            "How would you rate yourself in sql from 1-5?",
+            "Do you have experience in writing complex sql queries and give an example of that?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fidelity",
+      "name": "Fidelity",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself?",
+            "Difference between BRD & FRD?",
+            "What are User Stories and how can you define Acceptance Criteria?",
+            "How can you say requirements is good?",
+            "Explain data mapping.",
+            "Explain flow chart.",
+            "Difference bw UML and sequence diagram.",
+            "What is activity diagram?",
+            "Ask to write user story based on scenario.",
+            "What is RTM and what are its phases?",
+            "How good at sql?",
+            "About Agile ceremony.",
+            "Explain Gap Analysis.",
+            "How do you gather requirements?",
+            "Which elicitation technique do you prefer?",
+            "Have you implemented any application from scratch?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hca-healthcare",
+      "name": "HCA Healthcare",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "F2F Interview",
+          "questions": [
+            "Introduce Yourself.",
+            "Do u have any Product development from Scratch, Any Migration Product.",
+            "Run through the Gap Analysis Process how you handled?"
+          ]
+        },
+        {
+          "name": "Scenario Based Questions",
+          "questions": [
+            "Launch a smart water bottle - What will be your take on Gathering the requirement - which includes Market Analytics?",
+            "An Application is gathering Financial Data from all applictionn in-house DBat All stages and it's Success and Failure and for the Failure once are moving it to UI and is being used by Analyst and found that you are working on Redudant workflows and convice business for Automating this what KPI'S or how will you convince the customer for Automation?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthfirst-technologies",
+      "name": "Healthfirst Technologies",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Project overview - LIMS overview.",
+            "Any other project you have worked on.",
+            "How do you get requirements- explained We get requirements through client via email and on behalf of client we raise that requirement under Jira and discuss with clients to derive multiple user requirements.",
+            "How do you write user stories- explained both format I want so that and Gherkin format?",
+            "Did you handle any requirements end to end?",
+            "What is the use of MS Visio, Paint and Balsamiq - asked from resume?",
+            "How are you using AI in your company?",
+            "Any other things you have learned outside your organisation.",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hexaware",
+      "name": "Hexaware",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1 (Set 1)",
+          "questions": [
+            "What elicitation techniques are you using as a BA?",
+            "How are you gathering requirements and from whom?",
+            "What templates are you using to gather requirements?",
+            "If you are gathering requirements, then what does the product team do?",
+            "As soon as you get a requirement, how will you start writing a user story?",
+            "What should be your first step as soon as you get the high level requirement with only one sentence.",
+            "What are the things you can create through Jira?",
+            "Why is an Epic needed?",
+            "How do you prioritize backlogs?",
+            "When do you encounter scope creep and scope swap?",
+            "Explain a scenario where we need non-functional requirements."
+          ]
+        },
+        {
+          "name": "L1 (Set 2)",
+          "questions": [
+            "Introduction.",
+            "Who all are your scrum stake holders.",
+            "Explain all ceremonies.",
+            "How do you make sure all your user stories are complete. Have u heard of invest technique.don't u maintain any checklist to verify.",
+            "Have u heard of DoD and DOR?",
+            "Explain your 1st company how u conducted elicitation.",
+            "Do u know Fibonacci series? How many Story points can u consider in 1 sprint. What is 1 story point.",
+            "What is MVP? Not the full form. But explain?",
+            "What is road map.",
+            "How a product is broken into requirement. Something related to this.",
+            "How good are u in SQL?",
+            "If 2 stakeholders are giving different requirements. Both are of high priority how can u consider?",
+            "When I had explained for one of the ans abt the fishbone technique he asked when 2 stakeholders have given 5 whys answers then how will u make both of them into one agreement. This discussion led to the above 12 question?",
+            "What is JIRA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "htc-global-healthcare",
+      "name": "HTC Global (Healthcare)",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Project overview - LIMS overview and challenges.",
+            "When conflict between clients then how do you handle the situations.",
+            "When you working on requirement then how do you use SQL for validate the data in lims project.",
+            "Walk me through your specific query which you perform in you LIMS project tell some.",
+            "In your LIMS project what was your business questions that you needed to answer in data and how did sql find that answer.",
+            "In your lims project what do you document any specific data validation what specific rules you write down to developers to follow or implement.",
+            "In LIMS what day to day checks to ask your developers?",
+            "Have you worked on data validation in your project. Give example in lims project document the data validation of requirement.",
+            "How you manage complex requirement and stakeholders with example?",
+            "Brief gap analysis?",
+            "Do you know API? Where do you use in your project?",
+            "How do prioritize requirements?",
+            "Test case design?",
+            "How do you write user stories- explained both format I want so that and Gherkin format.",
+            "Did you handle any requirements end to end.",
+            "In lims how did you document As is v/s to be workflow using tools like Bizagi Modular.",
+            "In lims project have perform Process flow diagram?",
+            "How you perform UAT testing?",
+            "In UAT if user change the requirement what will you do?",
+            "When you perform change request?",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imedhas",
+      "name": "iMedhas",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Explain about the requirement from start to end with all tools used.",
+            "In UAT if user change the requirement what will you do.",
+            "How will you make sure sprint is completed, what all you will see.",
+            "Explain any lesson learnt from experience.",
+            "Explain about Risk and how do you document it and where will you give.",
+            "Explain about Risk identified in your requirement. Explain about security in your requirement.",
+            "If all stakeholders answers are contradictory or not proper what will you do.",
+            "Which tool was used for deployment?",
+            "Do u ask all kind of questions to stakeholders during elicitation like for example in healthcare for how long patient record is required.",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immidart",
+      "name": "Immidart",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about your self.",
+            "Tell me more about the projects you worked with.",
+            "Gave a scenario and asked to write user story and acceptance criteria with regards to the previous project that I worked (Rates at checkout feature).",
+            "Asked more about API integration projects and the how you approached it?",
+            "How did you handle the change request?",
+            "How quickly can you learn different domains?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incedo",
+      "name": "Incedo",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "What was your role at Tata AIG?",
+            "What product were you working on?",
+            "Do you have SQL knowledge and working experience?",
+            "As a Business Analyst, how would you validate that the migration was successful using SQL?",
+            "What analysis would you perform during data migration?",
+            "Can you give me an example of a Primary Key?",
+            "What is the difference between UNION and UNION ALL?",
+            "Why do we use GROUP BY? Give an example.",
+            "What is a Foreign Key?",
+            "Write a SQL query to find the second highest salary from an Employee table.",
+            "Write a SQL query to find duplicate employee names.",
+            "What methodology do you follow in your project?",
+            "What is your Sprint cycle?",
+            "Do you write User Stories?",
+            "After gathering the requirements and creating User Stories, what happens next?",
+            "In which format do you write Acceptance Criteria?",
+            "Once your User Story is ready, what is the next step?",
+            "Suppose you are on the 8th day of a two-week sprint and the client requests a change. How would you handle it?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indium-tech",
+      "name": "Indium Tech",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Can you please briefly introduce yourself?",
+            "How will you gather requirements?",
+            "Can you tell how you will write BRD and a User Story?",
+            "Can you explain the end to end flow of your project?",
+            "Suppose, if I'm paying to an insurance where my amount is debited, but, the amount is not credited. What is the root cause you found for this? How did you solve it?",
+            "Suppose if I am having loans in \"Active\" status, can you tell a query to display more customers whose loan status is \"Active\"?",
+            "Do you know ranks in SQL? Can you tell me where you used them?",
+            "Can you tell me where and how APIs are used in your project?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ipam",
+      "name": "IPAM",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "What is interface Analysis?",
+            "Do u know about API. Need to Explain with requirement/Example.",
+            "For retrieving data what is it called?",
+            "Tell me a requirement for which u have done group focus analysis.",
+            "Do all BA follow one template for requirement writing? Why to follow same temple give the reason. This template was provided by your company or client.",
+            "Did u work with other vendors? What is the challenging part when dev and QA belongs to other vendor.",
+            "If a given dev in every sprint during development phase keep asking functional related doubts how will I handle this situation?",
+            "If there is a scenario where u have to take decision to go ahead or not for development but product owner is on leave how will u take?",
+            "What is the difference between CR and a bug. One example was provided where I have to identify whether it was a bug or a CR?",
+            "Why BPMN is required when already a requirement is in place?",
+            "Have you used AI?",
+            "What is bizagi modeller tool.",
+            "During development phase we see that 2 Acceptance criteria is difficult to deliver in the same sprint and both are critical how will you handle.",
+            "Few scenario based questions."
+          ]
+        },
+        {
+          "name": "L2",
+          "questions": [
+            "Explain about your education. Have u done post graduation?",
+            "Which location did u give your 1st interview? And do you know anyone who works in IPAM?",
+            "Y did u choose BA as your career from start?",
+            "What challenges did u face when you started as BA in your 1st company?",
+            "Who was your client and explain about your customer?",
+            "Explain what all domains u worked and which domain you are expertise?",
+            "Is domain important for BA?",
+            "Explain your project and one requirement from your resume and explain complete process what u followed.",
+            "Tell about the user stories which u have written.",
+            "What is technical requirement? What all technical things u consider?",
+            "Due to my previous answers asked about the non functional requirements.",
+            "Do u capture non func requirement in user stories and acceptance criteria? Do u discuss about these with client?",
+            "Do u know APIs?",
+            "If there is a requirement for APIs how will u write user stories and acceptance criteria for the same?",
+            "Have u handled any migration project?",
+            "What's the difference between migration and replication?",
+            "If there is a project on migration how will you start writing requirement.",
+            "What is invest principal?",
+            "Did u only follow scrum as a framework for agile?",
+            "Explain all agile ceremonies.",
+            "What's the difference between sprint review and sprint demo?",
+            "Explain about DOD and DOR.",
+            "Are u interested to work in a different domain?",
+            "Have u used AI for daily work?",
+            "Are u comfortable to work late evening and till now long can u stretch?",
+            "What's your salary expectations? Is it fixed?",
+            "Why am I looking for a change?",
+            "Any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "johnson-johnson",
+      "name": "Johnson & Johnson",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduce yourself.",
+            "Explain the current LIMS workflow.",
+            "What's your day to day role as a BA?",
+            "Challenges LIMS project.",
+            "What is your understanding on product backlog and sprint backlog.",
+            "How you do data validation LIMS?",
+            "Explain GxP.",
+            "Explain 21 CFR part 11.",
+            "Which GAMP are following in your LIMS project Under 21 CFR?",
+            "How do you handle a change request?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ltimindtree-banking",
+      "name": "LTIMindtree (Banking)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about the projects you worked related to our requirement.",
+            "What is the difference between BRD and FRD?",
+            "If the stakeholder comes up with a change/new requirements at the end of the sprint. How do you manage?",
+            "What is data Lineage?",
+            "What is data mapping?",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ltimindtree-scenario-round",
+      "name": "LTIMindtree (Scenario Round)",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Imagine you are shopping in a supermarket. After billing, you choose to pay using Google Pay by scanning the merchant's QR code. As a Business Analyst, write user stories and acceptance criteria for the following scenarios:.",
+            "Suppose you created a user story with acceptance criteria. The developer implemented the feature and completed unit testing. During QA testing, the tester finds a valid defect that is not covered in the user story or acceptance criteria and asks why it was missed. How would you handle this situation?",
+            "Version 1 of a Business Requirement Document (BRD) has already been approved. Now the business requests additional changes. How would you prepare Version 2 of the BRD? What sections would you update, and how would you maintain version control?",
+            "Internal Customer vs External Customer.",
+            "How Do You Manage the Product Backlog?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mastech",
+      "name": "Mastech",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Intro.",
+            "Tell me about your Projects.",
+            "In 1st sprint if development team missed something how will you manage it in next sprint.",
+            "Agile & Waterfall, Tell me example.",
+            "How will you manage the communication & conflicts between Dev & stakeholders.",
+            "What all the elicitation techniques you do?",
+            "What will you highlight in BRD, what is the necessity to write it.",
+            "How you will validate the documents?",
+            "Did you write test cases?",
+            "What you highlight in URD, what is user stories, Acceptance criteria?",
+            "Where do you right user stories?",
+            "How do you manage requirements?",
+            "How you will get the requirements from client from which medium?",
+            "What all tools you know?",
+            "If stakeholders & development team have some issues then how you will resolve?",
+            "How many BRD hv you created?",
+            "Test cases are written by BA or Dev team?",
+            "What is agile ceremony?",
+            "What you do during UAT & When UAT will happened?",
+            "Before UAT what all environments have to be go through?",
+            "Have you faced any challenging requirements in your projects?",
+            "Where do you see your self in next 5 years.",
+            "Have you worked with US, UK clients & familer with their vocabulary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medimpact",
+      "name": "MedImpact",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "How did u manage conflicts with stakeholders?",
+            "If there is right deadline, how do you manage the requirements?",
+            "When you have to work on a requirement, how do you go about things?",
+            "Give your understanding on project management.",
+            "How do you manage budgeting and negotiating with stakeholders?",
+            "Various SQL queries on Create, Select, insert, joins etc.",
+            "What are subqueries?",
+            "What is your exposure on Java, various IDE's and PL/SQL?",
+            "Have you worked on Oracle SQL before?",
+            "How do u manage index values in SQL?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "melento",
+      "name": "Melento",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Introduction.",
+            "Explain about your Project - LoS and LMS Explained.",
+            "Explain about your Domain- BFSI.",
+            "Explain about the Requirements.",
+            "What Requirement Elicitations have you used?",
+            "Explain about SDLC Phases?",
+            "Explain about Scope Creep?",
+            "Explain about Sprint Demo and Difficult Stakeholders?",
+            "Explain about REST API and API Calls.",
+            "What Tool you use for API?",
+            "How do you document API?",
+            "Did you work using POSTMAN Tool individually?",
+            "How do you Prioritise the Project Requirements?",
+            "Explain about Generative AI and where you have used the requirement in your Project.",
+            "What does Melento Company do and What are the products of Melento?"
+          ]
+        },
+        {
+          "name": "L2",
+          "questions": [
+            "What are the Day to Day activities of a BA?",
+            "Explain how and why do you use CR- Change Requests?",
+            "Explain how you do Grooming Sessions?",
+            "How as a BA will you ensure the Story points are proper and will not affect the Delivery Timeline?",
+            "Explain about API Integrations used in your Project?",
+            "How do you support UAT?",
+            "Why do you want to work for Melento Saas based Product Company?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mphasis",
+      "name": "Mphasis",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduce yourself.",
+            "Last project you worked on.",
+            "How much is the legal team processing fee?",
+            "How bank communicate with legal and technical team for loan processing?",
+            "What legal report contains.",
+            "Is there any difference in report for 20 lakh and 20 cr loan.",
+            "How would you handle of there is multiple requirement.",
+            "What was your role as a BA in API?",
+            "If a new requirement is affecting other system, How would you deal with it.",
+            "If a client withdraw money from ATM, amount get debited but he doesn't get the amount. What solutions you give as a BA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msig-insurance",
+      "name": "MSIG Insurance",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Explain your Experience into P&C.",
+            "There is a requirement conflict. Underwriters want additional mandatory fields, but Sales wants fewer fields for faster quoting. How would you handle it?",
+            "What role does a Business Analyst play in renewal projects?",
+            "What data quality checks do you perform during policy validation?",
+            "Can you briefly explain your recent P&C insurance project?",
+            "Can you explain a change request that you handled recently?",
+            "How do you prioritize requirements?",
+            "How do you measure project success? What success metrics do you use?",
+            "Can you explain insurance data migration?",
+            "How do you capture the underwriting requirements? In a BRD document, what kind of information do you include?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "novelty-data-solutions",
+      "name": "Novelty Data Solutions",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Assignment",
+          "questions": [
+            "Create a short faceless user training video (1–3 minutes) demonstrating the doctor appointment booking feature.",
+            "Manipal MAHI Website: Prepare mini versions of the following: A. BRD. B. FRD. C. User stories with acceptance criteria. D. API documentation with dummy technical details.",
+            "Manipal Life on Website: Prepare an executive summary outlining key features and impact."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persistent-systems",
+      "name": "Persistent Systems",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Persistent - Insurance domain.",
+            "Introduce yourself.",
+            "What projects you have worked on?",
+            "What are your daily Tasks as a BA?",
+            "How do you identify stakeholders, who are the stakeholders of your project?",
+            "Explain Claims Management system.",
+            "Explain PAS system.",
+            "What is subrogation?",
+            "Hoe Endorsements are done.",
+            "Challenges you faced in a career.",
+            "Tools used as a BA.",
+            "What documents you use?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Please introduce yourself and describe your experience as a business analyst.",
+            "As a BA How you handle Change Request?",
+            "What are the Agile Matrix?",
+            "How you are doing Story Pointing?",
+            "What is the diference between Product Backlog and Sprint Backlong?",
+            "As a BA how you are prioratise the requirement received from stakeholders except moscow rule?",
+            "What are the prioratise in JIRA and explain the workflow in JIRA?",
+            "During the UAT phase of a newly developed feature, the compliance team withheld approval due to data privacy concerns regarding customer personal information. As the Business Analyst, what should be your approach to ressolve this.",
+            "How you are finalizing the scope for next sprint with your project manager?",
+            "As a BA how you handle showstopper bug raised in uat?",
+            "Tell me the difference between defination of done and defination of ready."
+          ]
+        },
+        {
+          "name": "L2",
+          "questions": [
+            "Introduce yourself.",
+            "Requirement - Introduce a new feature in mobile banking app, where give user an option to add beneficiary details?",
+            "Write a complete user requirement, user story acceptance criteria with negative scenario - given 15 mins to write.",
+            "Explain all the negative scenario.",
+            "How you handle negative scenario through Backend and front end validation?",
+            "Aksed various banking questions.",
+            "Asked various capital market domain questions.",
+            "Tell me one requirement on capital market ans explain end to end flow including test scenarios."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pivot-path-healthcare",
+      "name": "Pivot Path (Healthcare)",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Intro.",
+            "Explain about your project and explain area in which you are expertise.",
+            "Product sample came for testing and the testing is taking too much time, (lab sampling ) and all, so which all tables will get involve and what are the happening.",
+            "How you do data validation.",
+            "Do you understand the data which is serving in the backend each of the tables what columns are there, what use of those columns, what data they contain?",
+            "Customer comes he wants to find out to you product delivery, sample delivery is taking long time …. we want to find out that wether the Lab sampling, final result taking long time how you solve this as LIMS perspective which all table you will look at & what all happening to cause this delay?",
+            "Which business functions do you know well like end to end ( like lab analysis, HR, Finance, marketing from the business stand point with complete process?",
+            "Explain complete process mapping.",
+            "How do you handle functional requirement in depth where the flow.",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pwc",
+      "name": "PwC",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduction.",
+            "Explain your current project.",
+            "What are the enhancement you have done in your current project?",
+            "What are the challenges you have faced?",
+            "What are the tools you have used in this project?",
+            "In which area you are expertise?",
+            "How do you gather information and what all you do before?",
+            "Any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qburst",
+      "name": "QBurst",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Explain complete experience.",
+            "Explain current project.",
+            "How were u getting the requirement, who was assigning?",
+            "If lead was assigning then how did they assign and where.and what all things it had when they gave u the requirement.",
+            "If the requirement which u got was very high level as client was not technical enough then how did u take this up further?",
+            "If u had conflicting answers from 2 stakeholders how did u manage this situation?",
+            "What all documents u know?",
+            "How user stories were assigned to the team members?",
+            "Say the formats used for the user stories.",
+            "For the healthcare domain scenario said was of the current process is manual and it should be digital on appointments related then how would I take up this requirement. Who all are the users who use the EHR system.",
+            "Was there any product owner?",
+            "When I explained about the priority assessment with this the question asked was in this meeting does lead also join?",
+            "Explain the requirement gathering techniques.",
+            "When can you say the requirement is good for the development?",
+            "First do you go with elicitation or priority assessment?",
+            "Who all are the stakeholders and who all join.",
+            "There were few wrong questions asked to test if we are really a BA and how my answer would be. For example during sprint did u write the user stories."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quesscorp",
+      "name": "Quesscorp",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Brief introduction about yourself.",
+            "How was your BA journey over 4 years in Capgemini and what all responsibilities you took?",
+            "What does your typical work day look like as a BA?",
+            "Do you also perform testing as a BA?",
+            "Do you participate UAT?",
+            "How many projects have you worked on?",
+            "What kind of difficulties and challenges you faced while working as a BA?",
+            "Scenario: Client comes to you that they want a new Dashboard.what will be your next steps as a BA to take this requirement further?",
+            "Was there any scenario where you did everthing right as a BA but still failed and it turned out to be a challenging situation?",
+            "What all technologies/ tools do you use as a BA?",
+            "SQL: difference in Union and Unionall. Explain delete truncate and drop in sql.",
+            "Stakeholders want to add a requirement in middle of the sprint and they are being very pushy about it. How will you manage?",
+            "Do you know what is DoR and DoD?",
+            "Do you follow any documentation for DoR and DoD?",
+            "Scenario: Customer wants to add a phone number field in the banking application. As a BA how will you take up the requirement and start working?",
+            "Do you have any idea about AML KYC?",
+            "Can you explain what is GDPR?",
+            "Scenario: Developer comes and says that they want to use prod data as sample for their development purposes. Would you let them and what would your reply be as a BA?",
+            "What are all the scrum ceremonies?",
+            "What all changed in you as a fresher to BA with 4 years of experience. What all responsibilities did you start to take over the time?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quinnox-healthcare",
+      "name": "Quinnox Healthcare",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Intro.",
+            "Explain lims end to end?",
+            "Which lims it was?",
+            "What is the difference in Labware vs Labvantage lims?",
+            "Do you work in BRD? What does a BRd contains?",
+            "Difference of brd vs URS vs SRS?",
+            "Frame 4-5 user stories for a doctor writing prescription to a patient in ELNb (Electronics lab note book system?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rebit",
+      "name": "ReBIT",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Take me through your CV.",
+            "What is impact analysis and how do you perfom impact analysis?",
+            "How to you write BRD?",
+            "Explain user stories.",
+            "How to you use AI in your day to day life?",
+            "What are the Elicitaion you follow?",
+            "How do you gather the information and what all you do before the elicitation process.",
+            "Do you’ve any question for me?"
+          ]
+        },
+        {
+          "name": "L2",
+          "questions": [
+            "Tell me about yourself.",
+            "Can you explain your current or previous project?",
+            "Did you join the project from the beginning, or did you join midway through the project?",
+            "How do you interact and communicate with stakeholders to gather and clarify business requirements?",
+            "Are you open to working only in Bangalore, or are you flexible with other locations as well?",
+            "Why are you looking for a job change?",
+            "Can you explain one requirement you worked on and one task or responsibility you independently handled?",
+            "What tools have you used in your role as a Business Analyst?",
+            "What is your current notice period?",
+            "Do you have any questions for me?"
+          ]
+        },
+        {
+          "name": "L3",
+          "questions": [
+            "Who are your clients, and was the project developed from scratch by your company, or does your team primarily work on enhancements and modifications to existing systems?",
+            "What does your current company actually do, and what is your role in the project?",
+            "What tools and technologies do you use in your day-to-day work as a Business Analyst?",
+            "Are you comfortable relocating to Mumbai if the role requires it?",
+            "How does your current project actually work, who are its end users, and how do they use the system?",
+            "Why are you planning to switch from the healthcare domain to the banking and financial services domain?",
+            "Who are your company's clients in France and Germany, and what kind of projects or services does your company provide to them?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roundcube",
+      "name": "RoundCube",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Profile Overview.",
+            "Do you also give end user training?",
+            "Educational background.",
+            "What are your strengths / strong points as a BA?",
+            "How good are you with Excel and flow charts?",
+            "What is BRD and FRD document?",
+            "How long is sprint usually and asked sprint ceremonies?",
+            "Why should we hire you?",
+            "Any questions for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rumango",
+      "name": "Rumango",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Walk me through your resume and some of the projects you worked on in BFSI.",
+            "We got a requirement from a bank to develop a compliance tool. Related it with your current project and tell me how will you gather the requirements how will you structure the requirement workshop.",
+            "What is RTM?",
+            "Have you used AI in your projects?",
+            "Which projects have you implemented in lending.",
+            "Explain about the loan lifecycle events in LMS.",
+            "Do you have exposure to SAR reporting projects.",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sama-technologies",
+      "name": "Sama Technologies",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Do you want to start with a quick introduction?",
+            "So, how much of your experience is in insurance out of eight, nine years?",
+            "You talked about working on claims management systems, right? Any experience on the policy side as well?",
+            "So what were the business units that you worked on as part of the US insurance?",
+            "Any experience in Guidewire?",
+            "You've worked with Majesco platform.",
+            "Any certifications in insurance? Like AINS or any other certifications.",
+            "From the technical perspective, right? Do you know SQL? Have you... Do you have experience in SQL?",
+            "Which databases have you used for SQL?",
+            "And what kind of queries have you written, like how... I would just like to understand from the complexity of the queries, right? What kind of queries you are comfortable writing?",
+            "So how frequently did you have to interact with the business users?",
+            "And did you also participate in user acceptance testing (UAT)?",
+            "Will you be able to explain me policy life cycle in brief?",
+            "Can you explain me what is a reinstatement of a policy?",
+            "Can you tell me what is an endorsement?",
+            "Have you heard of out-of-sequence endorsement terminology?",
+            "What is the difference between a premium-bearing and a non-premium-bearing endorsement?",
+            "Can you tell me what is earned premium?",
+            "Can you tell me difference between a limit and a deductible?",
+            "From the claims standpoint, can you tell me what is subrogation?",
+            "What is salvage?",
+            "Do you also have experience in running the sprint calls, or writing Jira stories, and working as a Scrum Master? I know that you are certified in it but do you have work experience as well on it?",
+            "Any questions that you have for me?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "What is the difference between a Product Owner (PO) and a Business Analyst (BA)?",
+            "Suppose you are working on an e-commerce or quick-commerce product. Here is a business scenario—how would you approach it as a Business Analyst?",
+            "Explain your requirement gathering approach.",
+            "Explain the scenarios you worked with API what all components are there in the API document.",
+            "Imagine you need to display different delivery options for e-commerce and quick-commerce orders. What acceptance criteria would you define? What business rules or parameters would you include?",
+            "How would you explain these acceptance criteria to developers and QA?",
+            "Describe a situation where two stakeholders have conflicting requirements. How would you resolve the conflict while ensuring the project stays on track?",
+            "What are the possible reasons for an order being cancelled in an e-commerce or quick-commerce platform? How would you identify the root cause and propose a solution?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sewb",
+      "name": "SEWB",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "L1",
+          "questions": [
+            "Brief introduction about yourself.",
+            "Why did you switch jobs frequently.",
+            "How you will pick-up requirements.",
+            "Three different stakeholders shared different requirements all are priorities. Which one you will pick first.",
+            "Share me any challenging scenarios you have faced?",
+            "What is GDPR, where you have applied.",
+            "Where you recording all the documents.",
+            "How you will start your project.",
+            "How you will approach business owners to gather requirement?",
+            "How you will sign off your requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "societe-generale",
+      "name": "Societe Generale",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me abt yourself.",
+            "What project you worked and which domain?",
+            "How do you convey the requirements to development & testing teams?",
+            "Is your project agile? What you do in this?",
+            "What do you do as BA everyday?",
+            "What is your sprint size?",
+            "What is RTM?",
+            "Explain BRD & FRD?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sonata-software",
+      "name": "Sonata Software",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Talk about yourself.",
+            "Explain your previous project.",
+            "How to extract and analyse big data?",
+            "From where you get the requirements?",
+            "How to know on which requirement we can work first.",
+            "Describe more your previous project/Talk more about it.",
+            "How will you work on backlog?",
+            "How will you make sure you deliver the project on time?",
+            "Any question for us?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sysarc-infomatix",
+      "name": "SysArc Infomatix",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Explain about end to end process in LOS.",
+            "Explain about end to end process of how do you validate e-signature of a customer.",
+            "Explain STP.",
+            "Explain about other loans that you have worked on other than Mortgage loan.",
+            "What all API's you can integrate with LOS?"
+          ]
+        },
+        {
+          "name": "Additional Round",
+          "questions": [
+            "Introduce yourself.",
+            "Explain the project - follow up questions related to the project.",
+            "Explain BRD.",
+            "Challenges you faced with stakeholders.",
+            "About Jira confluence.",
+            "How did you prevent fraud in your previous project?",
+            "Who are your stakeholders?",
+            "How did you handle the change request?",
+            "What project you worked on in your previous job.",
+            "Did you support UAT?",
+            "How did you handle when the developer says the requirement is not technically feasible?",
+            "Did you have any disagreements with the stakeholders."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "takeda",
+      "name": "Takeda",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Takeda- Healthcare.",
+            "Tell me about yourself.",
+            "Explain the project that you worked on.",
+            "Scenario: Digitize the information from Center to the lab. Write,.",
+            "I) Business requirement.",
+            "Ii) User requirement.",
+            "Iii) User stories.",
+            "Iv) SQL JOIN Query.",
+            "Various questions regarding Gxp like Gxp standards, Gxp documentation created etc.",
+            "What is Change control process in Gxp systems?",
+            "What is the difference in Donor Information system and laboratory information management system?",
+            "You missed explaining a requirement to the team but deadline for UAT is near. How will you manage?"
+          ]
+        },
+        {
+          "name": "L1",
+          "questions": [
+            "Can you introduce yourself and give a brief overview of your background as a Business Analyst?",
+            "Can you take one LIMS feature which you worked upon, give me what your personal contribution was, from initial to end?",
+            "How did you handle UAT with the clients.",
+            "Let's take a scenario where the business came in and gave you that there are 20 must-have requirements, each requiring approximately 5 story points (a total of 100 points), but the development team only has the capacity of doing 50 story points. How would you go into this situation, and how will you handle it?",
+            "If the business insists that all 20 requirements are strictly 'Priority 1' and non-negotiable for the upcoming release, how would you negotiate with them?",
+            "Imagine today we have a center which collects blood samples that need to be sent to LIMS for testing. Currently, users are complaining that the whole process is very manual, takes a lot of time, and has errors. How would you look into solving this issue?",
+            "How would you handle resistance from center staff who are used to the manual paper process and hesitant to adopt a new digital tool?",
+            "Imagine today in the center we have donors coming in, and we manage their profiles in our system. The staff member reports: 'Hey boss, for the last few weeks we are facing a lot of issues leading to huge lines for creating donor profiles. I need your help to see how you can improve this whole process.' How are you going to look at it from that perspective?",
+            "The system gets really slow during peak hours between 10 AM and 1 PM. What do you think we should do about that immediately?",
+            "In your respective roles working in LIMS and First Advantage, how were requirements coming to you, who were all the stakeholders you interacted with on a daily basis?",
+            "What is the difference between your role and a Product Manager?",
+            "How do you handle conflict when two key stakeholders have opposing requirements for the same feature?",
+            "Difference between balsmiq and figma.",
+            "What is User story and give example?",
+            "Do you know about GXp?",
+            "Have you used confluence?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcs",
+      "name": "TCS",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "/08/2026 - TCS Interview - Round 1.",
+            "Have you come across Success to Failure and Failure to Success features in your previous project? If yes, where?",
+            "What is the difference between BRD and FRD?",
+            "What is the difference between SRS and SDLC (I misheard it as SDET)?",
+            "Do you know SQL?",
+            "How much do you rate yourself in SQL?",
+            "Why there is a gap of two years after completing Higher Education? (Based on the duration I mentioned in my resume)?",
+            "In your current company, in the current project, which part of the project were you involved into?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tcs-life-sciences",
+      "name": "TCS (Life Sciences)",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduction.",
+            "Explain about your project and explain the area in which you are expertise.",
+            "Have u been involved in UAT along with explanation?",
+            "During development suddenly u realize the requirement have a gap and u need to correct it how will u deal with this situation?",
+            "Which all documents u know?",
+            "Which all regulations u aware. In CSV u aware about all IQ, OQ, PQ.?",
+            "Explain about any difficult and challenging requirement which it was incomplete and how have u handled.",
+            "Have u conducted workshop? Need to say along with complete explanation?",
+            "Are u open to learn different area in life science domain?",
+            "Why are u leaving your current org?",
+            "Have u lead any team?",
+            "Were u involved into design discussion before development phase?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech-mahindra",
+      "name": "Tech Mahindra",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduction.",
+            "Explain complete process of handling requirement.",
+            "Explain what is MoSCOW(Already above but they wanted to know in dept).",
+            "What is SDD?",
+            "More on Gen AI, RAG.",
+            "What's is SCOD?",
+            "When in current sprint if suddenly client ask for new requirement how do you handle? If no backup capacity what will you do.",
+            "What is your aspirations?",
+            "Is your current company service based?",
+            "Did you work with other vendors?",
+            "Why am I looking for job change?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech-mahindra-ey-client",
+      "name": "Tech Mahindra (EY Client)",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Give introduction.",
+            "Explain all types of elicitation.",
+            "How do you prioritize your requirements in product backlog.",
+            "What are the different types of writing user stories and what's the difference between both types. When do we use them?",
+            "Have you heard of Figma tool. It's the latest one which all companies using.",
+            "Consider a car website and there are user registration module and in this user reg there are about the car specifications, other features, even module on selling car. Tell what is the epic, feature and user stories complete hierarchy. What can be the user stories heading, give the headings not complete things.",
+            "Have you worked on azure?",
+            "Any questions?"
+          ]
+        },
+        {
+          "name": "Round 2 – Finance Domain",
+          "questions": [
+            "Introduction and how was my exp earlier as BA?",
+            "As this is different domain which u have not worked (Finance) then what will be your approach of getting into new domain?",
+            "This domain is very huge and it will take few years then how can you learn and the approach?",
+            "Give any requirement and tell about epic, UR the complete hierarchy. First name the hierarchy and give the example.",
+            "Given the example of employee dashboard. In this the question was asked on IT service request to write the user stories and the few acceptance criteria.",
+            "With same example he asked if when employee raise service request and it failed then do u mention about this in AC?",
+            "What is L1, L2, L3 in BPMN and wireframe?",
+            "As you mentioned about managing CR how u were managing what is the process?",
+            "Have u faced any challenging situation and how have u overcome?",
+            "What is your understanding on product backlog?",
+            "Have you used AI and how have you used it?",
+            "What makes u interesting to join, why u want to choose us?",
+            "Why are u leaving your job?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech-mahindra-morgan-stanley-client",
+      "name": "Tech Mahindra (Morgan Stanley Client)",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 2",
+          "questions": [
+            "Introduction.",
+            "Explain the project.",
+            "Have u worked with API. As you told in project u worked with all 5 applications, was all applications connected? If yes then through what it was connected?",
+            "Explain what all BA takes care including the Requirement template.",
+            "How BA is different from other stakeholders and what are all the stakeholders?",
+            "Show the UML diagram for your requirement esp the system operations involved.",
+            "For complete new application to build draw the UML diagram.",
+            "For this new application requirement list the functional and non functional requirements and what is the difference betn func and non func req?",
+            "For login use case what are the checks it happens in backend?",
+            "If applicable which is built how we will say to client about the benifit, profit what all things u will say and about how useful it is. What all factors u will consider?",
+            "What is batches. With login example explain the batches how it will be done.",
+            "What is Gen AI how it works?",
+            "More interest was towards operation level checks.",
+            "Are u aware of N tier Architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teksystems-adobe-client",
+      "name": "TEKsystems (Adobe Client)",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself.",
+            "Can you give me an idea of your day-to-day life as a Business Analyst?",
+            "Who give requirements how it is assigned to you?",
+            "What is your team size?",
+            "How do you work with your Senior Business Analyst?",
+            "Do you alone handle the team of 12 people?",
+            "What do you think is the value you contribute to your team as a Business Analyst?",
+            "How would you prepare for an elicitation session?",
+            "Can you walk me through the product/project you're working on?",
+            "What are the documents you prepare?",
+            "How do you write a User Story and acceptance criteria?",
+            "How do you map the user journey?",
+            "Can you give an example of a situation where the requirement was confusing?",
+            "What would you do if the stakeholder doesn't give you clarity and the sprint is about to start?",
+            "What are the tool do you use?",
+            "What happens during backlog refinement?",
+            "If you've identified 10 items for the sprint but the Scrum Master says only 5 can be taken, what do you do?",
+            "What you do during UAT?",
+            "Do you have KPIs defined for each initiative you work on?",
+            "How would you measure the success of a feature?",
+            "What is your technical knowledge of web applications?",
+            "Do you know the technology stack of a web application?",
+            "Do you use AI in your day-to-day work?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trackermind",
+      "name": "TrackerMind",
+      "industry": "others",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about your project.",
+            "Brd vs frd.",
+            "How do do priority assignment?",
+            "How do you eleciate stakeholders?",
+            "What type of questions do you ask?",
+            "How do you explain requirements of projects?",
+            "Any project do you handle by yourself individually?",
+            "Are you ever worked in API and post man?",
+            "User stories vs used cases?",
+            "What are functions & NFR requirements?",
+            "Documentation: usestories, test cases, brd: formats."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translab",
+      "name": "TransLab",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Tell me about yourself?",
+            "Explain BRD?",
+            "Difference between BRD & FRD?",
+            "What are User Stories and how can you define Acceptance Criteria?",
+            "Explain the workflow of your recent Project?",
+            "Have you worked on Billing Application, Can you explain the process?",
+            "Difference between Billing and Invoice?",
+            "If stakeholders raise us that report revenue became high at the end, how will you deal it?",
+            "Have you worked on SQL?",
+            "Difference between Inner Join and Left Join?",
+            "How will you work on the changes after deployment?",
+            "Have you worked with Source and Target mapping and how will you do that?",
+            "Explain Gap Analysis?",
+            "What is the biggest achievement you have done till now?",
+            "How will you handle stress during your work?",
+            "Any questions for us?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-momentum",
+      "name": "Value Momentum",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Walk me through your Tata AIG Health Claims Management System project. What was the objective of the project and what was your role?",
+            "Was the provider portal developed only for empaneled/network hospitals, or was it a SaaS product released to the market?",
+            "Is the provider portal used only for cashless claims? What transaction modes are supported?",
+            "If the patient's treatment changes during hospitalization (for example, due to complications), how does the communication happen between the hospital portal and the claims system?",
+            "As a Business Analyst, what does your typical day look like?",
+            "What are the different BA artifacts/documents that you create?",
+            "Conduct a requirement elicitation session with me as the business stakeholder. What questions would you ask?",
+            "Who are the different users of the application (customers, agents, administrators, etc.)?"
+          ]
+        },
+        {
+          "name": "Round 2",
+          "questions": [
+            "Tell me about yourself? Explain your Tata Healthcare project.",
+            "What Documents you collect for Provider Portal?",
+            "Explain the complex scenario you handled.",
+            "How would you gather and document requirements for a brand-new Agent Onboarding Application?",
+            "What do you do if a key business user or stakeholder is too busy and has no time to give you requirements?",
+            "What skills BA should Have?",
+            "How do you handle ambiguous or vague requests from business stakeholders who aren't clear on what they want?",
+            "How do you ensure developers don't come back late in the sprint claiming a requirement is not technically feasible?",
+            "Did u work on Policy Life cycle, Difference between Induvial and group policy?",
+            "How long did u work with Tata AIG?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valuelabs",
+      "name": "ValueLabs",
+      "industry": "healthcare",
+      "rounds": [
+        {
+          "name": "Round 1 – Technical",
+          "questions": [
+            "Introduction.",
+            "Life sciences project walkthrough (LIMS).",
+            "What is QMS (Quality management system)?",
+            "Which LIMS software you have experience with?",
+            "What is CSV?",
+            "What is ELN? Which software did you use?",
+            "What is Ad-hoc testing?",
+            "What is GxP?",
+            "21 CFR Part 11, eValidation?",
+            "SDMS? LES? Capa?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo",
+      "name": "Wells Fargo",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "L1 – Loan & Mortgage",
+          "questions": [
+            "Intro in 3 mins.",
+            "How exactly Loan management system works in your bank?",
+            "Yours one is an Australian bank; does it follow US Mortgage or UK mortgage regulations?",
+            "What do you know about US mortgage?",
+            "Agile - how good you are?",
+            "In your company, do you help with UAT?",
+            "Are you aware about Strategic leadership?",
+            "Ok, do you use any tools for bugs/issues?",
+            "Lets discuss about few requirements from Los (Loan origination system) and then from LMS (Loan management system)?",
+            "How do you handle change request process?"
+          ]
+        },
+        {
+          "name": "L2 – Loan & Mortgage",
+          "questions": [
+            "Intro.",
+            "You just worked in Lending domain for 3 years, we look 10+ yrs exp candidate- why will we consider you? Please explain in details.",
+            "You mainly worked for LoS and not for LMS?",
+            "In india, we have CIBIL- like that in US we have?",
+            "Sql query on Join statement.",
+            "How to find out the highest salary from. Table?",
+            "What is LTV?",
+            "How you help your Sales/Customer support team?",
+            "Any questions?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wissen-technologies",
+      "name": "Wissen Technologies",
+      "industry": "bfsi",
+      "rounds": [
+        {
+          "name": "Round 1",
+          "questions": [
+            "Introduction.",
+            "Day to day activities of mine.",
+            "Which specific domain I have worked in Banking?",
+            "Asked the end to end process by taking example of any requirement.",
+            "What is grooming and whether I have involved in it?",
+            "In which framework of Agile I have worked Scrum or KanBan?",
+            "What is DOR and DOD?",
+            "Whether I have hands on in SQL or I was using pre defined quiries.",
+            "Asked to do screenshare and write the queries.",
+            "Table: Customers.",
+            "A. To display the customer who have not taken in customer table?",
+            "B. Display the customers who have taken loan and the exact amount?",
+            "What steps I have followed when customer asks for change in requirement?",
+            "What is KYC and cycle I have followed while doing KYC?",
+            "What is the duration of sprint?",
+            "Difference between Functional and Non funcional requirements.",
+            "Difference between User story and User case.",
+            "What is the format I use for writing user stories?",
+            "What is Scope creep?",
+            "What is EPIC and asked how I write it?",
+            "Tools used in BPMN and tools used for creating BPMN's.",
+            "What is the difference between Personal loan and Mortgage loan?",
+            "What are day to day activities of BA?",
+            "What are the different kinds of joins in SQL?",
+            "What is the difference between inner join and self join?"
+          ]
+        }
+      ]
+    }
+  ]
+}

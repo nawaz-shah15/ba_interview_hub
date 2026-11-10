@@ -1,14 +1,7 @@
 # BA Interview Hub
 
-A responsive React (Vite) app that shows **company-wise Business Analyst interview questions**,
-grouped into three industries:
-
-1. **Banking & BFSI**
-2. **Healthcare & Life Sciences**
-3. **Others**
-
-Pick an industry → pick a company → read the questions, tap **▶** to hear any question
-(or **Play all**), and use **Next company** / **Previous** to move through the companies.
+A responsive React (Vite) app with **company-wise Business Analyst interview questions**,
+grouped into **Banking & BFSI**, **Healthcare & Life Sciences** and **Others**.
 
 ## Run it
 
@@ -20,54 +13,79 @@ npm run dev
 ```
 
 Open the address shown in the terminal (usually http://localhost:5173).
-`npm run dev` also exposes the app on your Wi‑Fi, so you can open the printed *Network* URL on your phone.
-
-Production build:
 
 ```bash
-npm run build
-npm run preview
+npm run build      # production build in /dist
+npm run preview    # test the production build
 ```
 
-## Where are the questions?
+> **Microphone note:** voice answers and the mock-interview microphone only work on `https://` or
+> `http://localhost`. If you open the app on your phone through the Wi-Fi address (`http://192.168…`) the
+> browser blocks the microphone – deploy it (Vercel / Netlify, both free) or test voice on your computer.
 
-All questions live in one JSON file: `src/data/questions.json`
+## Features
+
+| Feature | Where |
+|---|---|
+| Industry → company → questions, **Next / Previous company** | Home |
+| **Listen** to any question, **Play all**, speed and voice choice | Every question |
+| **Star** hard questions, **mark as prepared**, progress bar per company | Every question / company page |
+| **Answer out loud** – your speech is transcribed (optional audio playback) | “Answer” button |
+| **Search across all companies** (e.g. “RTM”, “SQL joins”) | Search page / home |
+| **Topic tags** & filter chips (Agile, SQL, Documentation, API, Domain, Behavioural…) | Company page, Search, “Browse by topic” |
+| **Most asked topics** – ranked by number of companies that asked them | Most asked |
+| **Mock interview** – random questions, read aloud, countdown timer, auto-next, summary | Mock interview |
+| **My practice** – starred questions, saved voice answers, progress by company | My practice |
+| **Light / dark mode** (remembers your choice, first visit follows your device) | Sun / moon button |
+
+Everything you save (stars, prepared, answers, theme, voice, speed) stays **in your browser only**.
+
+## Data
+
+All questions are in `src/data/questions.json`:
 
 ```json
 {
-  "industries": [{ "id": "bfsi", "title": "Banking & BFSI", "tagline": "...", "icon": "bank" }],
   "companies": [
     {
       "id": "digit-insurance",
       "name": "Digit Insurance",
       "industry": "bfsi",
-      "rounds": [{ "name": "Round 1 – Pune", "questions": ["Tell me about your latest project ..."] }]
+      "rounds": [{ "name": "Round 1 – Pune", "questions": ["Tell me about your latest project."] }]
     }
   ]
 }
 ```
 
-To add a company, add an object to `companies` and set `industry` to `bfsi`, `healthcare` or `others`.
-The app picks it up automatically.
+* Add a company by adding an object to `companies` (`industry`: `bfsi`, `healthcare` or `others`).
+* To move a company to another industry without editing it, use `src/data/industryOverrides.json`.
+* Topic tags and the “Most asked” ranking are worked out automatically from the wording of each question
+  (rules in `src/utils/topics.js` – add a keyword rule to teach it a new topic).
+* `REVIEW_NOTES.md` lists every spelling fix that was made and the industry placements worth double-checking.
 
 ## Audio
 
-Audio uses the browser's built‑in Web Speech API (no API key needed).
-
-* The question on screen is never altered – a separate "spoken version" is built just for the voice
-  (`src/utils/speechText.js`): acronyms are spelled out (BRD → "B R D"), shorthand such as *u* → "you",
-  *vs* → "versus", and long questions are read sentence by sentence for clear delivery.
-* Speed (0.8× / 1× / 1.2×) and voice can be changed from the audio bar.
-* For the best voice use Chrome or Edge (they include natural English voices) or Safari on iPhone/Mac.
+Uses the browser's built-in speech (no API key). The question on screen is never changed – a separate spoken
+version is built for the voice (`src/utils/speechText.js`): acronyms are spelled out (BRD → “B R D”) and long
+questions are read sentence by sentence. Chrome and Edge give the most natural voices.
+Speech-to-text for voice answers works in Chrome, Edge and Safari (not Firefox).
 
 ## Project structure
 
 ```
 src/
-  App.jsx                 routing (hash based) + data wiring
-  data/questions.json     all companies & questions
-  components/             Home, IndustryPage, CompanyPage, Header, Icons
-  utils/useSpeech.js      text‑to‑speech hook
-  utils/speechText.js     builds the spoken version of a question
-  styles.css              all styling (responsive + dark mode)
+  App.jsx                    routes (hash based) + theme + shared state
+  context.jsx                shared app context
+  data/                      questions.json, industryOverrides.json
+  components/                Home, IndustryPage, CompanyPage, QuestionCard, VoicePanel,
+                             SearchPage, TopAsked, MockPage, MyPractice, Header, AudioBar …
+  utils/
+    catalog.js               builds the question index (ids, tags, ranking)
+    topics.js                tags + repeated-topic rules
+    search.js                cross-company search
+    progress.js              bookmarks / prepared / saved answers
+    useSpeech.js, speechText.js   text-to-speech
+    useDictation.js          speech-to-text (voice answers)
+    useTheme.js              light / dark mode
+  styles.css
 ```

@@ -1,17 +1,23 @@
 import { useMemo, useState } from 'react'
+import { useApp } from '../context.jsx'
+import { companies, industryById, questionsByCompany } from '../utils/catalog.js'
 import Icon from './Icons.jsx'
+import ProgressBar from './ProgressBar.jsx'
 
-export default function IndustryPage({ industry, companies, onOpen, onBack }) {
+export default function IndustryPage({ industryId }) {
+  const { go, progress } = useApp()
+  const industry = industryById[industryId]
+  const list = useMemo(() => companies.filter((c) => c.industry === industryId), [industryId])
   const [q, setQ] = useState('')
 
-  const list = useMemo(() => {
+  const shown = useMemo(() => {
     const term = q.trim().toLowerCase()
-    return term ? companies.filter((c) => c.name.toLowerCase().includes(term)) : companies
-  }, [q, companies])
+    return term ? list.filter((c) => c.name.toLowerCase().includes(term)) : list
+  }, [q, list])
 
   return (
     <main className={`page accent-${industry.id}`}>
-      <button className="btn btn--ghost btn--sm back" onClick={onBack}>
+      <button className="btn btn--ghost btn--sm back" onClick={() => go('/')}>
         <Icon name="left" size={18} /> All industries
       </button>
 
@@ -31,7 +37,7 @@ export default function IndustryPage({ industry, companies, onOpen, onBack }) {
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder={`Search ${companies.length} companies…`}
+          placeholder={`Search ${list.length} companies…`}
           aria-label="Search companies"
         />
         {q && (
@@ -41,20 +47,22 @@ export default function IndustryPage({ industry, companies, onOpen, onBack }) {
         )}
       </div>
 
-      {list.length === 0 ? (
+      {shown.length === 0 ? (
         <p className="empty">No company matches “{q}”.</p>
       ) : (
         <section className="company-grid">
-          {list.map((c) => {
-            const total = c.rounds.reduce((a, r) => a + r.questions.length, 0)
+          {shown.map((c) => {
+            const qs = questionsByCompany[c.id]
+            const done = progress.countPrepared(qs)
             return (
-              <button key={c.id} className="company-card" onClick={() => onOpen(c.id)}>
+              <button key={c.id} className="company-card" onClick={() => go(`/company/${c.id}`)}>
                 <span className="company-card__avatar">{c.name.trim()[0].toUpperCase()}</span>
                 <span className="company-card__body">
                   <span className="company-card__name">{c.name}</span>
                   <span className="company-card__meta">
-                    {total} questions · {c.rounds.length} {c.rounds.length === 1 ? 'round' : 'rounds'}
+                    {qs.length} questions · {c.rounds.length} {c.rounds.length === 1 ? 'round' : 'rounds'}
                   </span>
+                  {done > 0 && <ProgressBar value={done} total={qs.length} label={false} small />}
                 </span>
                 <Icon name="right" size={20} className="company-card__chev" />
               </button>
